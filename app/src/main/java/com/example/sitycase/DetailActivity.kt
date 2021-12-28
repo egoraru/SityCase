@@ -5,23 +5,24 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 
 import android.webkit.WebView
+
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStream
 import java.io.InputStreamReader
 
 
-class PiActivity : AppCompatActivity() {
+class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_pi)
+        setContentView(R.layout.activity_detail)
 
         val webView: WebView = findViewById(R.id.webView)
 
         val intent = intent
         //получаем строку и формируем имя ресурса
-        val resName = "n" + intent.getIntExtra("title", 9)
+        val resName = "n" + intent.getIntExtra("title", 0)
 
         val context: Context = baseContext
 
@@ -32,6 +33,7 @@ class PiActivity : AppCompatActivity() {
                 "raw", "com.example.sitycase"
             )
         )
+
         webView.loadDataWithBaseURL(null, text, "text/html", "en_US", null)
     }
 

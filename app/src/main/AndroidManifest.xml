@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sitycase">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +13,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SityCase">
+        <activity
+            android:name=".TelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VuoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CbkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity2"
+            android:exported="false" />
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <!--
+        <activity
+            android:name=".KaActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
         <activity
             android:name=".AfActivity"
             android:exported="false" />
@@ -21,6 +64,9 @@
             android:exported="false" />
         <activity
             android:name=".FoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KaActivity"
             android:exported="false" />
         <activity
             android:name=".UsActivity"
@@ -35,15 +81,11 @@
             android:name=".PeActivity"
             android:exported="false" />
         <activity
-            android:name=".KaActivity"
-            android:exported="false" />
-        <activity
             android:name=".PgActivity"
             android:exported="false" />
         <activity
             android:name=".IsActivity"
             android:exported="false" />
-
         <activity
             android:name=".ObActivity"
             android:exported="false" />
@@ -62,7 +104,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

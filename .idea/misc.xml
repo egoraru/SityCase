@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/soft/SityCase/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_af.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_cbk.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_detail.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_detail2.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_ent.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_fo.xml" value="0.21929824561403508" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_is.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_ka.xml" value="0.23114035087719298" />
@@ -17,9 +21,14 @@
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_po.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_ra.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_sl.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_sve.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_tel.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_to.xml" value="0.21929824561403508" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_us.xml" value="0.23114035087719298" />
         <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_vi.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/activity_vuo.xml" value="0.23114035087719298" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/layout/widget.xml" value="0.21929824561403508" />
+        <entry key="..\:/soft/SityCase/app/src/main/res/menu/map_options.xml" value="0.22554112554112554" />
       </map>
     </option>
   </component>

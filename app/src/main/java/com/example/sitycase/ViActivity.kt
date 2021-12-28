@@ -1,7 +1,8 @@
 package com.example.sitycase
 
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 
 class ViActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,21 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ObActivity">
+    android:background="@drawable/fon"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/adm"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/bg"
+        android:onClick="adm1"
+        android:scaleType="centerInside"
+        app:contentDescription="Администрация"
+        app:layout_constraintBottom_toTopOf="@+id/vuo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/adm" />
+
+    <ImageButton
+        android:id="@+id/cbk"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/bg"
+        android:onClick="cbk1"
+        android:scaleType="fitCenter"
+        app:contentDescription="СВК"
+        app:layout_constraintBottom_toTopOf="@+id/ent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cbk" />
+
+    <ImageButton
+        android:id="@+id/vuo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/bg"
+        android:onClick="vuo1"
+        android:scaleType="fitCenter"
+        app:contentDescription="Вуокса"
+        app:layout_constraintBottom_toTopOf="@+id/tel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vuo" />
+
+    <ImageButton
+        android:id="@+id/ent"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/bg"
+        android:onClick="ent1"
+        android:scaleType="fitCenter"
+        app:contentDescription="Enter"
+        app:layout_constraintBottom_toTopOf="@+id/sve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ent" />
+
+
+    <ImageButton
+        android:id="@+id/tel"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/bg"
+        android:onClick="tel1"
+        android:scaleType="fitCenter"
+        app:contentDescription="Светоканал"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tel" />
+
+    <ImageButton
+        android:id="@+id/sve"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/bg"
+        android:onClick="sve1"
+        android:scaleType="fitCenter"
+        app:contentDescription="Свет"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sve" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/play_bold"
-        android:text="Общение"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/play"
+        android:text="Добро пожаловать \n в Светогорские группы!"
+        android:textAlignment="center"
+        android:textColor="#9AFFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/adm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>

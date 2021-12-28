@@ -1,5 +1,6 @@
 package com.example.sitycase
 
+
 import android.annotation.TargetApi
 import android.os.Build
 import android.os.Bundle
@@ -7,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+
 
 class KaActivity : AppCompatActivity() {
 
